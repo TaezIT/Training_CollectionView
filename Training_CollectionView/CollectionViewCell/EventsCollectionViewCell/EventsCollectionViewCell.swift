@@ -55,10 +55,6 @@ class EventsCollectionViewCell: UICollectionViewCell {
         self.labelLocation.font = UIFont(name: "Abel-Regular", size: 13)
         self.viewBackground.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
         self.viewBackground.layer.cornerRadius = 18
-        self.viewBackground.layer.shadowColor = UIColor(red: 0.312, green: 0.334, blue: 0.534, alpha: 0.06).cgColor
-        self.viewBackground.layer.shadowOpacity = 2
-        self.viewBackground.layer.shadowRadius = 30
-
     }
     
 }

@@ -19,5 +19,5 @@ struct ModelInvite {
         self.imageRepresentation = imageRepresentation
     }
 }
-var modelInvite = [ModelInvite(labelInvite: "Invite your friends", labelPrice: "Get $20 for ticket", buttonInvite: "Invite", imageRepresentation: "Image6"),
-                   ModelInvite(labelInvite: "Invite your friends", labelPrice: "Get $20 for ticket", buttonInvite: "Invite", imageRepresentation: "Image6")]
+var modelInvite = [ModelInvite(labelInvite: "Invite your friends", labelPrice: "Get $20 for ticket", buttonInvite: "INVITE", imageRepresentation: "Image6"),
+                   ModelInvite(labelInvite: "Invite your friends", labelPrice: "Get $20 for ticket", buttonInvite: "INVITE", imageRepresentation: "Image6")]

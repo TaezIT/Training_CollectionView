@@ -8,6 +8,7 @@
 import UIKit
 
 class InviteTableViewCell: UITableViewCell {
+    @IBOutlet var viewContent :UIView!
     @IBOutlet var labelInvite: UILabel!
     @IBOutlet var labelPrice: UILabel!
     @IBOutlet var buttonInvite: UIButton!
@@ -28,9 +29,6 @@ class InviteTableViewCell: UITableViewCell {
         self.labelPrice.font = UIFont(name: "Abel-Regular", size: 13)
         self.labelInvite.text = model.labelInvite
         self.labelInvite.textColor = UIColor(red: 0.069, green: 0.05, blue: 0.15, alpha: 1)
-        self.labelInvite.font = UIFont(name: "NotoSans-Medium", size: 18)
-        self.buttonInvite.titleLabel?.text = model.buttonInvite
-        self.buttonInvite.titleLabel?.textColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
         self.buttonInvite.titleLabel?.font = UIFont(name: "NotoSans-Medium", size: 12)
         self.buttonInvite.layer.cornerRadius = 5
         self.buttonInvite.backgroundColor = UIColor(red: 0, green: 0.973, blue: 1, alpha: 1)

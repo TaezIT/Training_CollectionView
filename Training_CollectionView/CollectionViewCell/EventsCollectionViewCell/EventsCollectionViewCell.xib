@@ -19,10 +19,10 @@
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zor-dB-lMq">
                         <rect key="frame" x="5" y="5" width="290" height="237"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9sK-SG-H6i">
-                        <rect key="frame" x="14" y="14" width="275" height="118"/>
+                        <rect key="frame" x="14" y="14" width="271" height="118"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="no" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yCB-fw-Xad">
                         <rect key="frame" x="21" y="146" width="269" height="21"/>
@@ -41,7 +41,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KaA-op-XWH">
-                        <rect key="frame" x="247" y="22" width="30" height="30"/>
+                        <rect key="frame" x="243" y="22" width="30" height="30"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OIC-5W-CyK">
                                 <rect key="frame" x="9" y="9" width="12" height="12"/>
@@ -121,7 +121,7 @@
                 <constraint firstItem="Zor-dB-lMq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="Gs8-MH-OoK"/>
                 <constraint firstItem="IkP-F8-ZBs" firstAttribute="top" secondItem="yCB-fw-Xad" secondAttribute="bottom" constant="8" id="NF0-zg-NxV"/>
                 <constraint firstItem="Xuv-me-Uj1" firstAttribute="leading" secondItem="Zor-dB-lMq" secondAttribute="leading" constant="18" id="OfL-Bu-oll"/>
-                <constraint firstItem="Zor-dB-lMq" firstAttribute="trailing" secondItem="9sK-SG-H6i" secondAttribute="trailing" constant="6" id="WGQ-Kk-JUC"/>
+                <constraint firstItem="Zor-dB-lMq" firstAttribute="trailing" secondItem="9sK-SG-H6i" secondAttribute="trailing" constant="10" id="WGQ-Kk-JUC"/>
                 <constraint firstItem="Zor-dB-lMq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="bx3-qZ-AqF"/>
                 <constraint firstItem="5KS-2R-Vqc" firstAttribute="leading" secondItem="12g-Qi-skH" secondAttribute="trailing" constant="10" id="dO3-jS-Gy7"/>
                 <constraint firstItem="P7l-ec-gap" firstAttribute="leading" secondItem="Xuv-me-Uj1" secondAttribute="trailing" constant="7" id="eaZ-TS-q7T"/>

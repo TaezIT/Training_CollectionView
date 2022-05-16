@@ -8,6 +8,8 @@
 import UIKit
 
 class CollectionTableViewCell: UITableViewCell {
+   
+    @IBOutlet weak var viewContent: UIView!
     @IBOutlet var titleCollectionViewCell: UILabel!
     @IBOutlet var buttonSeeAll: UIButton!
     @IBOutlet var imageArrowShape: UIImageView!
@@ -49,6 +51,11 @@ extension CollectionTableViewCell: UICollectionViewDataSource{
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "EventsCollectionViewCell", for: indexPath) as! EventsCollectionViewCell
         cell.configure(with: modelEvent[indexPath.row])
+        cell.layer.shadowColor = UIColor(red: 0.312, green: 0.334, blue: 0.534, alpha:      0.06).cgColor
+        cell.layer.shadowOpacity = 1
+        cell.layer.shadowRadius = 5
+        cell.layer.shadowOffset = CGSize(width: 0, height: 8)
+        cell.layer.masksToBounds = false
         return cell
     }
     
@@ -58,6 +65,6 @@ extension CollectionTableViewCell: UICollectionViewDelegateFlowLayout{
         return CGSize(width: 235, height: 255)
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        return 15
+        return 8
     }
 }
